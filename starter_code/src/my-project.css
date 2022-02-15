@@ -1,0 +1,45 @@
+.my-project{
+    width: 100vw;
+    height: auto;
+    padding-top: 50vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50vh;
+    display: flex;
+}
+.image-project{
+    margin: auto;
+    width: 40vw;
+}
+.text-project{
+    padding-top: 10vh;
+    align-items: center;
+    padding-left: 5vw;
+    width: 40vw;
+    color: var(--colorBase);
+}
+.text-project p{
+    padding-bottom: 5vh;
+}
+
+.text-project h2{
+    padding: 5px;
+    text-align: left;
+    height: 10vh;
+    width: fit-content;
+    box-shadow: -5px 5px  rgb(255, 255, 255);
+    color: white;
+    background-color: var(--colorBase);
+    font-size: 35px;
+}
+
+.text-project button{
+    padding-right: 10px;
+    font-weight: 600;
+    color: white;
+    font-family: var(--fontBase);
+    background: var(--colorBase);
+    border-radius: 3px;
+    width: 12vw;
+    height: 9vh;
+}

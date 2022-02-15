@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- Change lang propertie -->
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,169 @@
     <!-- Change document title  -->
     <title>Document</title>
     <!-- Here goes your styles -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,800;0,900;1,800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./src/main.css">
+    <link rel="stylesheet" href="./src/image.css">
+    <link rel="stylesheet" href="./src/about-me.css">
+    <link rel="stylesheet" href="./src/presentation.css">
+    <link rel="stylesheet" href="./src/my-project.css">
 </head>
-<body>
-    
-</body>
-</html>l
+    <body>
+        <!--Sección main que engloba todo el contenido de imagen y texto-->
+        <section id="main">
+            <!--Seccion about-me que contendra la parte del nav y la presencion, asi como los botones-->
+            <section id="about-me">
+                <!--Sección  Text-->
+                <section id="text">
+                    <h2>LOGO</h2>
+                    <nav>
+                        <a href="" style="color: #230886;">HOLA</a>
+                        <a href="">PROYECTOS</a>
+                        <a href="">HABLEMOS</a>
+                    </nav>
+                </section>
+
+                <section id="pre">
+                    <h3 id="saludo">!Hola a todos¡</h3>
+                    <br/>
+                    <h1 id="nombre">Soy Eduardo</h1>
+                    <br/>
+                    <p>Frontend Developer que le encanta implementar <br> diseños que inspiran y atraen a las personas.</p>
+                    <section id="icons">
+                        <ul>
+                            <li><img src="./src/img/icon-phone.png"></li>
+                            <li><img src="./src/img/mail.png"></li>
+                            <li><img src="./src/img/icon-instagram.png"></li>
+                            <li><img src="./src/img/icon-twitter_squared.png"></li>
+                        </ul>
+                    </section>
+                    <br>
+                    <button>DESCARGAR CURRICULUM</button>
+                </section>
+                
+            </section>
+                  
+            <section id="profile-img" src>
+                <img src="./src/img/profile.jpg" alt="">                
+            </section>
+        </section>
+
+        <section class="footer">
+            <p>Participé en @GeneratioMx y realice proyectos como a <br> continuación veremos</p> 
+            <br>
+            <h2>Aqui hay algunos que me gustaria compartir</h2>
+            <img src="./src/img/arrow-down.svg">
+        </section>
+
+        <section class="my-project">
+            <section class="text-project">
+                <h2>mi_proyecto.com</h2>
+                <br>
+                <p>Accede a mas de 120 proyectos que te ayudarán a <br> mejorar <br> tus habilidades como desarrolador Front-End</p>
+                <button>VER PROYECTO</button>
+                <button>VER CÓDIGO</button>
+            </section>
+            <div class="image-project">
+                <img src="./src/img/pc.png">
+            </div>
+        </section>
+            
+        <section class="footer-2">
+            <h2>"JC ha sido de gran ayuda para acelerar ciertos esfuerzos de <br> 
+                desarrollo. Lo que nos hubiera llevado 6 meses solo les <br>
+                llevó 1,5 meses ".
+            </h2>
+            <h2 style="color: #3f088679;">
+                ERIKA FLORES / INSTRUCTOR GENERATION
+            </h2>
+        </section>
+
+        <section class="my-project">
+            <div class="image-project">
+                <img src="./src/img/tablet.png">
+            </div>
+            <section class="text-project">
+                <h2>MARVOL</h2>
+                <br>
+                <p>Es el sitio oficial de Marvol Entertainment. Explore <br>
+                    películas, personajes, cómics, programas de televisión, <br>
+                    videos y más oficiales de Marvol.</p>
+                <button>VER PROYECTO</button>
+                <button>VER CÓDIGO</button>
+            </section>
+        </section>
+
+        <section class="footer-2">
+            <h2>"JC ha sido una persona que demuestra sus habilidades y ha <br>
+                crecido mucho".
+            </h2>
+            <h2 style="color: #3f088679;">
+                ERIKA FLORES / INSTRUCTOR GENERATION
+            </h2>
+        </section>
+
+        <section class="my-project">
+            <section class="text-project">
+                <h2>NETNET</h2>
+                <br>
+                <p>Películas y series ilimitadas y mucho más. <br>
+                    Disfruta donde quieras. Cancela cuando quieras.
+                </p>
+                <button>VER PROYECTO</button>
+                <button>VER CÓDIGO</button>
+            </section>
+            <div class="image-project">
+                <img src="./src/img/phone.png">
+            </div>
+        </section>
+
+        <section class="footer-2">
+            <h2>Por primera vez en la historia de nuestra empresa, <br>
+                aparecimos en todas las plataformas en las que <br>
+                trabajamos".
+            </h2>
+            <h2 style="color: #3f088679;">
+                MARCO CORTEZ / NETNET
+            </h2>
+        </section>
+
+
+        <section id="form">
+            <button id="btn-form">HABLEMOS</button>
+            <p>Si está interesado en trabajar conmigo en su próximo proyecto, <br>
+                no dude en ponerse en contacto conmigo.
+            </p>
+            <form action="">
+                <ul>
+                    <li>
+                        <label class="text-form">Nombre completo<span style="color: red;">*</span></label>
+                        <input type="text" class="box">
+                    </li>
+                    <li>
+                        <label class="text-form">Correo electronico<span style="color: red;">*</span></label>
+                        <input type="email" class="box">
+                    </li>
+                    <li>
+                        <label class="text-form">Mensaje</label>
+                        <textarea name="user_message" class="box" cols="30" rows="10"></textarea>
+                    </li>
+                </ul>
+            </form>
+        </section>
+
+        <footer>
+            <ul id="foot">
+                <li><h2>LOGO</h2></li>
+                <li><p>Hecho con ❤️ de JC. Copyright 2021 - Todos los derechos reservados. </p></li>
+                <li>
+                    <img src="./src/img/icon-phone.png">
+                    <img src="./src/img/mail.png">
+                    <img src="./src/img/icon-instagram.png">
+                    <img src="./src/img/icon-twitter_squared.png">
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

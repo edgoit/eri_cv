@@ -1,0 +1,12 @@
+
+#profile-img{
+    margin: auto;
+    width: 40vw;
+}
+
+#profile-img img{
+    width:40vw;
+    height: 80vh;
+    border-radius: 25px;
+    box-shadow: 20px 16px rgba(55, 87, 87, 0.103);
+}
